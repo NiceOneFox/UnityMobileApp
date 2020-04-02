@@ -18,6 +18,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
@@ -34,6 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585845291202</updated>
       <workItem from="1585845303904" duration="23000" />
+      <workItem from="1585860609868" duration="5000" />
     </task>
     <servers />
   </component>
@@ -41,5 +43,11 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="776" y="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585860608689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="390" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585860608689" />
+  </component>
 </project>
