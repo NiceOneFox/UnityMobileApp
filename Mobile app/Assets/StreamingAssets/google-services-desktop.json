@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "300186291474",
+    "firebase_url": "https://unitymobile-9bcb3.firebaseio.com",
+    "project_id": "unitymobile-9bcb3",
+    "storage_bucket": "unitymobile-9bcb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300186291474:android:25878859875b1cbfcf37cb",
+        "android_client_info": {
+          "package_name": "com.teamS.BattleOfWords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300186291474-pp2g2fg0r9jnujm4p8uo7238u6rrot9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_X1qz8NMOGXXVxshlFbAcMzfnahy7HG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300186291474-pp2g2fg0r9jnujm4p8uo7238u6rrot9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
