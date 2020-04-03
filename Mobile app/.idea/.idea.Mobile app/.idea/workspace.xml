@@ -10,6 +10,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Firebase/google-services.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Auth Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AuthController.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1ZzcItZMfVnRMBuI60SXNxvVV7X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,6 +35,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,6 +63,11 @@
       <updated>1585845291202</updated>
       <workItem from="1585845303904" duration="23000" />
       <workItem from="1585860609868" duration="5000" />
+      <workItem from="1585904466373" duration="90000" />
+      <workItem from="1585904712124" duration="5000" />
+      <workItem from="1585905288359" duration="282000" />
+      <workItem from="1585905611913" duration="1666000" />
+      <workItem from="1585924227280" duration="693000" />
     </task>
     <servers />
   </component>
@@ -49,5 +81,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="390" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585860608689" />
+    <state x="863" y="220" key="SettingsEditor" timestamp="1585924734781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="863" y="220" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585924734781" />
   </component>
 </project>
