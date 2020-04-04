@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 8e61a82065947364b963808948f8f4b6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Comic Neue
+  fontNames:
+  - Comic Neue
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 764c97b1458a3e3489293b1e5924aecb, type: 3}
+  - {fileID: 12800000, guid: 5b0a504284efcaa409446ba7d1e5ab62, type: 3}
+  - {fileID: 12800000, guid: 53f974b31596f5445a9a285ec2b2b0c3, type: 3}
+  - {fileID: 12800000, guid: 2e6c3f08098c88e45becc92cddc5fa28, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
