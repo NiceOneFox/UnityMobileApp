@@ -36,7 +36,7 @@ public class SinglePlayer : MonoBehaviour
         if (isPlaying)
         {
             time -= 1;
-            if (time == 0)
+            if (time <= 0)
             {
                 StopGame();
             }
