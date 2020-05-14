@@ -20,7 +20,7 @@ public class SinglePlayer : MonoBehaviour
 
     private bool isPlaying = true;
 
-    List<object> questionList;
+    public List<object> questionList;
     int randQuestion;
 
     QuestionList currentQuestion;
@@ -48,7 +48,7 @@ public class SinglePlayer : MonoBehaviour
     {
         isPlaying = false;
         tapToContinueButton.SetActive(true);
-        questionText.text = "Time is over.. \n Your score: " + score + "\n tap to continue";
+        questionText.text = "Your score: " + score + "\n tap to continue";
         questionText.verticalOverflow = VerticalWrapMode.Overflow;
         for (int i = 0; i < animationsToPlay.Length; i++)
         {
@@ -59,6 +59,7 @@ public class SinglePlayer : MonoBehaviour
     public void GenerateList()
     {
         int allQuestionsCount = GameManagement.Instance.allWords.questions.Count;
+        questions.Clear();
         for (int i = 0; i < allQuestionsCount; i++)
         {
             QuestionList newList = new QuestionList();
@@ -128,7 +129,17 @@ public class SinglePlayer : MonoBehaviour
             streak = 0;
         }
         questionList.RemoveAt(randQuestion);
+        if (questionList.Count < 5)
+        {
+            GameManagement.Instance.allWords.Initialize();
+            GenerateList();
+            questionList = new List<object>(questions);
+        }
         questionGenerate();
+        if (time <= 0)
+        {
+            StopGame();
+        }
     }
 
     public void OnHomeButtonClick()
